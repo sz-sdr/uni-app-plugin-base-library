@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--android状态栏高度-->
+    <dimen name="sdr_status_bar_height">24dp</dimen>
+</resources>

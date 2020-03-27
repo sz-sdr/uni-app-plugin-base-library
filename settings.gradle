@@ -1,0 +1,2 @@
+include ':app', ':uni-app-plugin-base-library'
+rootProject.name='uni-app-base-library'
