@@ -41,7 +41,9 @@ public class MainActivity extends BaseActivity {
         recyclerAdapter.addData(new Item("打开loading", new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new SdrLoadingDialog().show(getSupportFragmentManager(),"SdrLoadingDialog");
+                SdrLoadingDialog loadingDialog = new SdrLoadingDialog(getActivity());
+                loadingDialog.setTitle("正在下载文件中...");
+                loadingDialog.show();
             }
         }));
     }
