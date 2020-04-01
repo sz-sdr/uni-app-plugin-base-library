@@ -41,4 +41,6 @@ dependencies {
     api 'com.github.HyFun:RxPermissions:0.10.4'
     // logger
     api 'com.github.HyFun:logger:2.2.1'
+    // material dialog
+    api 'com.afollestad.material-dialogs:core:0.9.6.0'
 }

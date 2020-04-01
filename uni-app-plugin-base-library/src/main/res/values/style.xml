@@ -11,4 +11,9 @@
     <style name="SDR.Theme.Dialog.NoBlur">
         <item name="android:backgroundDimEnabled">false</item>
     </style>
+
+
+    <color name="colorToastSuccess">#47D764</color>
+    <color name="colorToastInfo">#2F86EB</color>
+    <color name="colorToastWarning">#BA2525</color>
 </resources>
